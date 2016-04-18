@@ -85,7 +85,7 @@ puts animal.name
 
 ## won't work without class reader and writer methods  - puts Animal.current_animals.inspect
 
+## create new lesson for inheritance, super etc. 
 
-
-goldie = Cow.new("moo")
+goldie = Cow.new
 puts goldie.get_noise

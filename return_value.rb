@@ -2,6 +2,8 @@
 
 #return is singular. There is only one return value that comes back
 
+#returning a value and using puts outside a method can provide more flexibility than using puts inside
+
 
 def welcome(name = "World")
     puts "Hello #{name}"

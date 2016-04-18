@@ -1,5 +1,8 @@
 #default values can be set so that there are no errors when an argument isn't passed in
 
+#when creating arguments, ask yourself if the method really does need to be passed something in order to work
+
+
 def welcome(name = "World")
     puts "Hello #{name}"
 end
